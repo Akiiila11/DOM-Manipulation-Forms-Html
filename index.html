@@ -1,0 +1,224 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Retrieving data from the form submission - HTML</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="shortcut icon" href="https://s3.dualstack.us-east-1.amazonaws.com/cdn.designcrowd.com/blog/famous-a-mazing-logos-that-make-an-impact/logo%20samples/Logos/A%20Logos%20%28Black%29/A-logo-design-Joyanta-Ray.jpg" type="image/x-icon">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+
+</head>
+<body>
+
+    <div class="container">
+        <div class="row align-items-center justify-content-center text-center ">
+            <div class="col-lg-6 shadow-lg mt-5">
+                <form action="" class="form">
+                    <h1 class="headline">HTML FORM</h1>
+                    <p class="description">Please fill the below details!</p>
+
+                    <hr>
+
+                    <div class="row">
+                        <div class="col-lg-6">
+                            <div class="form-group m-3">
+                                <input type="text" name="" id="" placeholder="Enter Your First Name" class="form-control" required>
+                                <input type="text" name="" id="" placeholder="Enter Your Last Name" class="form-control mt-3" required>
+                            </div>
+                        </div>
+                        <div class="col-lg-6">
+                            <div class="form-group m-3">
+                                <input type="text" name="" id="" placeholder="Enter Your Mobile No" class="form-control">
+                                <input type="text" name="" id="" placeholder="Enter Your Email" class="form-control mt-3">
+                            </div>
+                        </div>
+                    </div>
+
+                    <hr>
+
+                    <div class="row justify-content-center">
+                        <h5 class="">Choose Your Gender</h5>  
+                        <div class="col-lg-3 mt-3">
+                            <input type="radio" name="gender" id="male" class="form-check-input" value="male">
+                            <label for="male" class="form-check-label">Male</label> 
+                        </div>    
+                        <div class="col-lg-3 mt-3">
+                            <input type="radio" name="gender" id="female" class="form-check-input" value="female">
+                            <label for="female" class="form-check-label">Female</label>
+                        </div>
+                        <div class="col-lg-3 mt-3">
+                            <input type="radio" name="gender" id="others" class="form-check-input" value="others">
+                            <label for="others"  class="form-check-label">Others</label>
+                        </div>
+                    </div>
+
+                    <hr>
+                    
+                    <div class="row">
+                       <div class="form-group col-lg-12">
+                            <input type="text" placeholder="Enter Your Current Address" class="form-control p-3 mt-3 mb-2" required>
+                        </div>
+                        <div class="form-group col-lg-6">
+                            <input type="text" placeholder="Enter Your City" class="form-control  mt-3 mb-2" required>
+                        </div>
+                        <div class="form-group col-lg-6">
+                            <input type="text" placeholder="Enter Your State" class="form-control  mt-3 mb-2" required>
+                        </div>
+                        <div class="form-group col-lg-6">
+                            <input type="text" placeholder="Enter Your Country" class="form-control  mt-3 mb-2" required>
+                        </div>
+                        <div class="form-group col-lg-6">
+                            <input type="text" placeholder="Enter Your Pincode" class="form-control  mt-3 mb-2" required>
+                        </div>
+                    </div>
+
+                    <hr>
+
+                    <h5>Find Cars Here</h5>
+                    <p>Available Cars</p>
+                    <div class="row">
+                        <div class="col-lg-4">
+                            <div class="d-flex align-items-start justify-content-start">
+                                <input type="checkbox"  name="cars" id="Porsche"  class="form-check-input">
+                                <label for="Porsche" class="form-check-label ps-2">Porsche</label>
+                            </div>
+                        </div>
+                        <div class="col-lg-4">
+                            <div class="d-flex align-items-start justify-content-start">
+                                <input type="checkbox" name="cars" id="Tesla"  class="form-check-input">
+                                <label for="Tesla" class="form-check-label ps-2">Tesla</label>
+                            </div>
+                        </div>
+                        <div class="col-lg-4">
+                            <div class="d-flex align-items-start justify-content-start">
+                                <input type="checkbox" name="cars" id="Toyota"  class="form-check-input">
+                                <label for="Toyota" class="form-check-label ps-2">Toyota</label>
+                            </div>
+                        </div>
+                        <div class="col-lg-4">
+                            <div class="d-flex align-items-start justify-content-start">
+                                <input type="checkbox" name="cars" id="Ford"  class="form-check-input">
+                                <label for="Ford" class="form-check-label ps-2">Ford</label>
+                            </div>
+                        </div>
+                        <div class="col-lg-4">
+                            <div class="d-flex align-items-start justify-content-start">
+                                <input type="checkbox" name="cars" id="Honda"  class="form-check-input">
+                                <label for="Honda" class="form-check-label ps-2">Honda</label>
+                            </div>
+                        </div>
+                        <div class="col-lg-4">
+                            <div class="d-flex align-items-start justify-content-start">
+                                <input type="checkbox" name="cars" id="Audi" value="cars" class="form-check-input">
+                                <label for="Audi" class="form-check-label ps-2">Audi</label>
+                            </div>
+                        </div>
+                        <div class="col-lg-4">
+                            <div class="d-flex align-items-start justify-content-start">
+                                <input type="checkbox" name="cars" id="BMW" value="cars" class="form-check-input">
+                                <label for="BMW" class="form-check-label ps-2">BMW</label>
+                            </div>
+                        </div>
+                        <div class="col-lg-4">
+                            <div class="d-flex align-items-start justify-content-start">
+                                <input type="checkbox" name="cars" id="Ferrari" value="cars" class="form-check-input">
+                                <label for="Ferrari" class="form-check-label ps-2">Ferrari</label>
+                            </div>
+                        </div>
+                        <div class="col-lg-4">
+                            <div class="d-flex align-items-start justify-content-start">
+                                <input type="checkbox" name="cars" id="Lamborghini" value="cars" class="form-check-input">
+                                <label for="Lamborghini" class="form-check-label ps-2">Lamborghini</label>
+                            </div>
+                        </div>
+                        <div class="col-lg-4">
+                            <div class="d-flex align-items-start justify-content-start">
+                                <input type="checkbox" name="cars" id="Hyundai" value="cars" class="form-check-input">
+                                <label for="Hyundai" class="form-check-label ps-2">Hyundai</label>
+                            </div>
+                        </div>
+                        <div class="col-lg-4">
+                            <div class="d-flex align-items-start justify-content-start">
+                                <input type="checkbox" name="cars" id="Nissan" value="cars" class="form-check-input">
+                                <label for="Nissan" class="form-check-label ps-2">Nissan</label>
+                            </div>
+                        </div>
+                        <div class="col-lg-4">
+                            <div class="d-flex align-items-start justify-content-start">
+                                <input type="checkbox" name="cars" id="Ford Mustang" value="cars" class="form-check-input">
+                                <label for="Ford Mustang" class="form-check-label ps-2">Ford Mustang</label>
+                            </div>
+                        </div>
+                        <div class="col-lg-4">
+                            <div class="d-flex align-items-start justify-content-start">
+                                <input type="checkbox" name="cars" id="Kia" value="cars" class="form-check-input">
+                                <label for="Kia" class="form-check-label ps-2">Kia</label>
+                            </div>
+                        </div>
+                        <div class="col-lg-4">
+                            <div class="d-flex align-items-start justify-content-start">
+                                <input type="checkbox" name="cars" id="Volkswagen" value="cars" class="form-check-input">
+                                <label for="Volkswagen" class="form-check-label ps-2">Volkswagen</label>
+                            </div>
+                        </div>
+                        <div class="col-lg-4">
+                            <div class="d-flex align-items-start justify-content-start">
+                                <input type="checkbox" name="cars" id="Jeep" value="cars" class="form-check-input">
+                                <label for="Jeep" class="form-check-label ps-2">Jeep</label>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg">
+                        <button class="btn btn-dark mt-5 mb-5 px-5 py-2" type="submit">Submit</button>
+                    </div>
+                </form>
+            </div>
+
+             <h3 class="mt-5">Fill the above form and see the details down !!</h3>
+
+             <div class="col-lg-12 mt-5">
+                <table class="table">
+                    <thead>
+                        <tr class="table-dark">
+                            <th>First Name</th>
+                            <th>Last Name</th>
+                            <th>Mobile No</th>
+                            <th>Email</th>
+                            <th>Gender</th>
+                            <th>Address</th>
+                            <th>City</th>
+                            <th>State</th>
+                            <th>Country</th>
+                            <th>Pincode</th>
+                            <th>Cars</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr class="table-primary"></tr>
+                    </tbody>
+                </table>
+             </div>
+        </div>
+    </div>
+    
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <script src="script.js"></script>
+
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@3.11.8/dist/umd/popper.min.js" integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.min.js" integrity="sha384-0pUGZvbkm6XF6gxjEnlmuGrJXVbNuzT9qBBavbLwCsOGabYfZo0T0to5eqruptLy" crossorigin="anonymous"></script>
+
+</body>
+</html>
