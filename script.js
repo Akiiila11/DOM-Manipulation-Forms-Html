@@ -1,7 +1,7 @@
 const addValues = document.getElementById("form");
 
-addValues.addEventListener("submit", function (sub) {
-  sub.preventDefault();
+addValues.addEventListener("submit", function (event) {
+  event.preventDefault();
 
 //   get form values
   const firstName = document.getElementById("first-name").value;
@@ -17,14 +17,14 @@ addValues.addEventListener("submit", function (sub) {
   const cars = [];
 
   const checkBox = document.querySelectorAll('input[type="checkbox"]:checked');
-  checkBox.forEach(function (checkbox) {
-    cars.push(checkbox.nextElementSibling.textContent);
+  checkBox.forEach  ( (checkbox)=> {  
+    cars.push(checkbox.nextElementSibling.textContent);           
   });
 
 //   reference to the table body
   const tableRow = document.querySelector(".table tbody");
   const newRow = tableRow.insertRow();
-  
+
 //   insert cells into the row
   const cell1 = newRow.insertCell(0);
   const cell2 = newRow.insertCell(1);
